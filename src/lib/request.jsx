@@ -4,10 +4,9 @@ class Request {
   }
 
   get(path) {
-    return fetch(path)
-  	.then(response => response.json()).then((json) => {
-    console.log('json', json);
-    this.store.dispatch({
+    return fetch(path).then(response => response.json()).then((json) => {
+      console.log('json', json);
+      this.store.dispatch({
       type: 'REQUEST_SUCCESS',
       data: json,
     });
