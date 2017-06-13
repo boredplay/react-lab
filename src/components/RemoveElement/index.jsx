@@ -1,6 +1,6 @@
 import React from 'react';
 
-class RemoveElement extends React.Component{
+class RemoveElement extends React.Component {
   constructor(props){
     super(props);
     this.handlerClick = this.handlerClick.bind(this);
