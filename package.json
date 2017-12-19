@@ -2,7 +2,7 @@
   "name": "react-exercise",
   "version": "1.0.0",
   "description": "ToDo List App - React Redux Example",
-  "main": "app.js",
+  "main": "index.jsx",
   "scripts": {
     "test": "mocha",
     "start": "node node_modules/webpack-dev-server/bin/webpack-dev-server.js --content-base ./src/public"

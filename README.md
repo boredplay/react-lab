@@ -3,7 +3,7 @@
 React Redux exercise. Running on webpack-dev-server. State is saved on data.json file.
 
 
-# Install & Run
+# Install and Run
 
 ```bash
 $ git clone https://github.com/brunoseguer/react-lab.git
@@ -13,7 +13,7 @@ $ git clone https://github.com/brunoseguer/react-lab.git
 ## Server: Install and Run
 
 ```bash
-$ cd /react-lab/server
+$ cd react-lab/src/server
 $ npm install
 $ node app.js
 
@@ -22,7 +22,7 @@ $ node app.js
 ## ToDo App: Install and Run
 
 ```bash
-$ cd react-lab
+$ cd react-lab/
 $ npm install
 $ npm run start
 
