@@ -29,11 +29,13 @@ app.put('/state', (req, res) => {
 });
 
 fs.readFile(dataFile, (err, data)=> {
-  
+
   try{
     memory = JSON.parse(data.toString());
   }catch(e){
 
   }
 });
-app.listen(8000);
+app.listen(8000,(err) => {
+  err ? console.log('error') : console.log('listen on *:8080');
+});
