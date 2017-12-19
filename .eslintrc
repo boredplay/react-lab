@@ -1,9 +1,0 @@
-{
-  "extends": "eslint-config-airbnb",
-  "parser": "babel-eslint",
-
-  "rules": {
-    "no-console": 1,
-    "jsx-a11y/img-has-alt": 0
-  }
-}
